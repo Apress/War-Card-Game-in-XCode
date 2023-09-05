@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B74F70DA2A5F190200E88CDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F70D92A5F190200E88CDF /* AppDelegate.swift */; };
+		B74F70DE2A5F190200E88CDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74F70DD2A5F190200E88CDF /* ViewController.swift */; };
+		B74F70E12A5F190200E88CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74F70DF2A5F190200E88CDF /* Main.storyboard */; };
+		B74F70E32A5F190200E88CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74F70E22A5F190200E88CDF /* Assets.xcassets */; };
+		B74F70E62A5F190200E88CDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74F70E42A5F190200E88CDF /* LaunchScreen.storyboard */; };
+		B74F71222A5F194000E88CDF /* diamondstwo.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70EE2A5F194000E88CDF /* diamondstwo.png */; };
+		B74F71232A5F194000E88CDF /* heartsthree.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70EF2A5F194000E88CDF /* heartsthree.png */; };
+		B74F71242A5F194000E88CDF /* clubsking.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F02A5F194000E88CDF /* clubsking.png */; };
+		B74F71252A5F194000E88CDF /* spadesfour.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F12A5F194000E88CDF /* spadesfour.png */; };
+		B74F71262A5F194000E88CDF /* heartsten.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F22A5F194000E88CDF /* heartsten.png */; };
+		B74F71272A5F194000E88CDF /* diamondsking.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F32A5F194000E88CDF /* diamondsking.png */; };
+		B74F71282A5F194000E88CDF /* diamondsfive.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F42A5F194000E88CDF /* diamondsfive.png */; };
+		B74F71292A5F194000E88CDF /* heartstwo.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F52A5F194000E88CDF /* heartstwo.png */; };
+		B74F712A2A5F194000E88CDF /* clubsqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F62A5F194000E88CDF /* clubsqueen.png */; };
+		B74F712B2A5F194000E88CDF /* spadestwo.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F72A5F194000E88CDF /* spadestwo.png */; };
+		B74F712C2A5F194000E88CDF /* clubsfour.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F82A5F194000E88CDF /* clubsfour.png */; };
+		B74F712D2A5F194000E88CDF /* spadeseight.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70F92A5F194000E88CDF /* spadeseight.png */; };
+		B74F712E2A5F194000E88CDF /* diamondsace.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70FA2A5F194000E88CDF /* diamondsace.png */; };
+		B74F712F2A5F194000E88CDF /* spadesqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70FB2A5F194000E88CDF /* spadesqueen.png */; };
+		B74F71302A5F194000E88CDF /* heartsfour.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70FC2A5F194000E88CDF /* heartsfour.png */; };
+		B74F71312A5F194000E88CDF /* clubssix.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70FD2A5F194000E88CDF /* clubssix.png */; };
+		B74F71322A5F194000E88CDF /* diamondsjack.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70FE2A5F194000E88CDF /* diamondsjack.png */; };
+		B74F71332A5F194000E88CDF /* spadesseven.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F70FF2A5F194000E88CDF /* spadesseven.png */; };
+		B74F71342A5F194000E88CDF /* spadesnine.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71002A5F194000E88CDF /* spadesnine.png */; };
+		B74F71352A5F194000E88CDF /* spadesjack.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71012A5F194000E88CDF /* spadesjack.png */; };
+		B74F71362A5F194000E88CDF /* spadesthree.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71022A5F194000E88CDF /* spadesthree.png */; };
+		B74F71372A5F194000E88CDF /* clubsthree.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71032A5F194000E88CDF /* clubsthree.png */; };
+		B74F71382A5F194000E88CDF /* diamondsqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71042A5F194000E88CDF /* diamondsqueen.png */; };
+		B74F71392A5F194000E88CDF /* heartsnine.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71052A5F194000E88CDF /* heartsnine.png */; };
+		B74F713A2A5F194000E88CDF /* heartsseven.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71062A5F194000E88CDF /* heartsseven.png */; };
+		B74F713B2A5F194000E88CDF /* diamondsnine.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71072A5F194000E88CDF /* diamondsnine.png */; };
+		B74F713C2A5F194000E88CDF /* clubseight.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71082A5F194000E88CDF /* clubseight.png */; };
+		B74F713D2A5F194000E88CDF /* clubsfive.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71092A5F194000E88CDF /* clubsfive.png */; };
+		B74F713E2A5F194000E88CDF /* clubsseven.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F710A2A5F194000E88CDF /* clubsseven.png */; };
+		B74F713F2A5F194000E88CDF /* diamondsseven.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F710B2A5F194000E88CDF /* diamondsseven.png */; };
+		B74F71402A5F194000E88CDF /* heartsqueen.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F710C2A5F194000E88CDF /* heartsqueen.png */; };
+		B74F71412A5F194000E88CDF /* heartssix.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F710D2A5F194000E88CDF /* heartssix.png */; };
+		B74F71422A5F194000E88CDF /* heartsace.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F710E2A5F194000E88CDF /* heartsace.png */; };
+		B74F71432A5F194000E88CDF /* spadessix.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F710F2A5F194000E88CDF /* spadessix.png */; };
+		B74F71442A5F194000E88CDF /* spadesten.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71102A5F194000E88CDF /* spadesten.png */; };
+		B74F71452A5F194000E88CDF /* heartsfive.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71112A5F194000E88CDF /* heartsfive.png */; };
+		B74F71462A5F194000E88CDF /* diamondseight.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71122A5F194000E88CDF /* diamondseight.png */; };
+		B74F71472A5F194000E88CDF /* diamondsfour.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71132A5F194000E88CDF /* diamondsfour.png */; };
+		B74F71482A5F194000E88CDF /* spadesace.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71142A5F194000E88CDF /* spadesace.png */; };
+		B74F71492A5F194000E88CDF /* heartseight.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71152A5F194000E88CDF /* heartseight.png */; };
+		B74F714A2A5F194000E88CDF /* clubsace.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71162A5F194000E88CDF /* clubsace.png */; };
+		B74F714B2A5F194000E88CDF /* heartsking.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71172A5F194000E88CDF /* heartsking.png */; };
+		B74F714C2A5F194000E88CDF /* heartsjack.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71182A5F194000E88CDF /* heartsjack.png */; };
+		B74F714D2A5F194000E88CDF /* clubsjack.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71192A5F194000E88CDF /* clubsjack.png */; };
+		B74F714E2A5F194000E88CDF /* spadesking.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F711A2A5F194000E88CDF /* spadesking.png */; };
+		B74F714F2A5F194000E88CDF /* diamondsthree.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F711B2A5F194000E88CDF /* diamondsthree.png */; };
+		B74F71502A5F194000E88CDF /* clubstwo.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F711C2A5F194000E88CDF /* clubstwo.png */; };
+		B74F71512A5F194000E88CDF /* clubsten.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F711D2A5F194000E88CDF /* clubsten.png */; };
+		B74F71522A5F194000E88CDF /* spadesfive.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F711E2A5F194000E88CDF /* spadesfive.png */; };
+		B74F71532A5F194000E88CDF /* diamondsten.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F711F2A5F194000E88CDF /* diamondsten.png */; };
+		B74F71542A5F194000E88CDF /* clubsnine.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71202A5F194000E88CDF /* clubsnine.png */; };
+		B74F71552A5F194000E88CDF /* diamondssix.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71212A5F194000E88CDF /* diamondssix.png */; };
+		B74F71572A5F197E00E88CDF /* ic_deckback.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71562A5F197E00E88CDF /* ic_deckback.png */; };
+		B74F71592A5F198400E88CDF /* ic_empty.png in Resources */ = {isa = PBXBuildFile; fileRef = B74F71582A5F198400E88CDF /* ic_empty.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B74F70D62A5F190200E88CDF /* WarCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarCardGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B74F70D92A5F190200E88CDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B74F70DD2A5F190200E88CDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B74F70E02A5F190200E88CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B74F70E22A5F190200E88CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B74F70E52A5F190200E88CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B74F70E72A5F190200E88CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74F70EE2A5F194000E88CDF /* diamondstwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondstwo.png; sourceTree = "<group>"; };
+		B74F70EF2A5F194000E88CDF /* heartsthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsthree.png; sourceTree = "<group>"; };
+		B74F70F02A5F194000E88CDF /* clubsking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsking.png; sourceTree = "<group>"; };
+		B74F70F12A5F194000E88CDF /* spadesfour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesfour.png; sourceTree = "<group>"; };
+		B74F70F22A5F194000E88CDF /* heartsten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsten.png; sourceTree = "<group>"; };
+		B74F70F32A5F194000E88CDF /* diamondsking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsking.png; sourceTree = "<group>"; };
+		B74F70F42A5F194000E88CDF /* diamondsfive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsfive.png; sourceTree = "<group>"; };
+		B74F70F52A5F194000E88CDF /* heartstwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartstwo.png; sourceTree = "<group>"; };
+		B74F70F62A5F194000E88CDF /* clubsqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsqueen.png; sourceTree = "<group>"; };
+		B74F70F72A5F194000E88CDF /* spadestwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadestwo.png; sourceTree = "<group>"; };
+		B74F70F82A5F194000E88CDF /* clubsfour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsfour.png; sourceTree = "<group>"; };
+		B74F70F92A5F194000E88CDF /* spadeseight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadeseight.png; sourceTree = "<group>"; };
+		B74F70FA2A5F194000E88CDF /* diamondsace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsace.png; sourceTree = "<group>"; };
+		B74F70FB2A5F194000E88CDF /* spadesqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesqueen.png; sourceTree = "<group>"; };
+		B74F70FC2A5F194000E88CDF /* heartsfour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsfour.png; sourceTree = "<group>"; };
+		B74F70FD2A5F194000E88CDF /* clubssix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubssix.png; sourceTree = "<group>"; };
+		B74F70FE2A5F194000E88CDF /* diamondsjack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsjack.png; sourceTree = "<group>"; };
+		B74F70FF2A5F194000E88CDF /* spadesseven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesseven.png; sourceTree = "<group>"; };
+		B74F71002A5F194000E88CDF /* spadesnine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesnine.png; sourceTree = "<group>"; };
+		B74F71012A5F194000E88CDF /* spadesjack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesjack.png; sourceTree = "<group>"; };
+		B74F71022A5F194000E88CDF /* spadesthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesthree.png; sourceTree = "<group>"; };
+		B74F71032A5F194000E88CDF /* clubsthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsthree.png; sourceTree = "<group>"; };
+		B74F71042A5F194000E88CDF /* diamondsqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsqueen.png; sourceTree = "<group>"; };
+		B74F71052A5F194000E88CDF /* heartsnine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsnine.png; sourceTree = "<group>"; };
+		B74F71062A5F194000E88CDF /* heartsseven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsseven.png; sourceTree = "<group>"; };
+		B74F71072A5F194000E88CDF /* diamondsnine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsnine.png; sourceTree = "<group>"; };
+		B74F71082A5F194000E88CDF /* clubseight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubseight.png; sourceTree = "<group>"; };
+		B74F71092A5F194000E88CDF /* clubsfive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsfive.png; sourceTree = "<group>"; };
+		B74F710A2A5F194000E88CDF /* clubsseven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsseven.png; sourceTree = "<group>"; };
+		B74F710B2A5F194000E88CDF /* diamondsseven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsseven.png; sourceTree = "<group>"; };
+		B74F710C2A5F194000E88CDF /* heartsqueen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsqueen.png; sourceTree = "<group>"; };
+		B74F710D2A5F194000E88CDF /* heartssix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartssix.png; sourceTree = "<group>"; };
+		B74F710E2A5F194000E88CDF /* heartsace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsace.png; sourceTree = "<group>"; };
+		B74F710F2A5F194000E88CDF /* spadessix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadessix.png; sourceTree = "<group>"; };
+		B74F71102A5F194000E88CDF /* spadesten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesten.png; sourceTree = "<group>"; };
+		B74F71112A5F194000E88CDF /* heartsfive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsfive.png; sourceTree = "<group>"; };
+		B74F71122A5F194000E88CDF /* diamondseight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondseight.png; sourceTree = "<group>"; };
+		B74F71132A5F194000E88CDF /* diamondsfour.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsfour.png; sourceTree = "<group>"; };
+		B74F71142A5F194000E88CDF /* spadesace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesace.png; sourceTree = "<group>"; };
+		B74F71152A5F194000E88CDF /* heartseight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartseight.png; sourceTree = "<group>"; };
+		B74F71162A5F194000E88CDF /* clubsace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsace.png; sourceTree = "<group>"; };
+		B74F71172A5F194000E88CDF /* heartsking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsking.png; sourceTree = "<group>"; };
+		B74F71182A5F194000E88CDF /* heartsjack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heartsjack.png; sourceTree = "<group>"; };
+		B74F71192A5F194000E88CDF /* clubsjack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsjack.png; sourceTree = "<group>"; };
+		B74F711A2A5F194000E88CDF /* spadesking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesking.png; sourceTree = "<group>"; };
+		B74F711B2A5F194000E88CDF /* diamondsthree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsthree.png; sourceTree = "<group>"; };
+		B74F711C2A5F194000E88CDF /* clubstwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubstwo.png; sourceTree = "<group>"; };
+		B74F711D2A5F194000E88CDF /* clubsten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsten.png; sourceTree = "<group>"; };
+		B74F711E2A5F194000E88CDF /* spadesfive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spadesfive.png; sourceTree = "<group>"; };
+		B74F711F2A5F194000E88CDF /* diamondsten.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondsten.png; sourceTree = "<group>"; };
+		B74F71202A5F194000E88CDF /* clubsnine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clubsnine.png; sourceTree = "<group>"; };
+		B74F71212A5F194000E88CDF /* diamondssix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamondssix.png; sourceTree = "<group>"; };
+		B74F71562A5F197E00E88CDF /* ic_deckback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_deckback.png; sourceTree = "<group>"; };
+		B74F71582A5F198400E88CDF /* ic_empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_empty.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B74F70D32A5F190200E88CDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B74F70CD2A5F190200E88CDF = {
+			isa = PBXGroup;
+			children = (
+				B74F70D82A5F190200E88CDF /* WarCardGame */,
+				B74F70D72A5F190200E88CDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B74F70D72A5F190200E88CDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B74F70D62A5F190200E88CDF /* WarCardGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B74F70D82A5F190200E88CDF /* WarCardGame */ = {
+			isa = PBXGroup;
+			children = (
+				B74F70ED2A5F192500E88CDF /* Cards */,
+				B74F70D92A5F190200E88CDF /* AppDelegate.swift */,
+				B74F70DD2A5F190200E88CDF /* ViewController.swift */,
+				B74F70DF2A5F190200E88CDF /* Main.storyboard */,
+				B74F70E22A5F190200E88CDF /* Assets.xcassets */,
+				B74F70E42A5F190200E88CDF /* LaunchScreen.storyboard */,
+				B74F70E72A5F190200E88CDF /* Info.plist */,
+			);
+			path = WarCardGame;
+			sourceTree = "<group>";
+		};
+		B74F70ED2A5F192500E88CDF /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				B74F71582A5F198400E88CDF /* ic_empty.png */,
+				B74F71562A5F197E00E88CDF /* ic_deckback.png */,
+				B74F71162A5F194000E88CDF /* clubsace.png */,
+				B74F71082A5F194000E88CDF /* clubseight.png */,
+				B74F71092A5F194000E88CDF /* clubsfive.png */,
+				B74F70F82A5F194000E88CDF /* clubsfour.png */,
+				B74F71192A5F194000E88CDF /* clubsjack.png */,
+				B74F70F02A5F194000E88CDF /* clubsking.png */,
+				B74F71202A5F194000E88CDF /* clubsnine.png */,
+				B74F70F62A5F194000E88CDF /* clubsqueen.png */,
+				B74F710A2A5F194000E88CDF /* clubsseven.png */,
+				B74F70FD2A5F194000E88CDF /* clubssix.png */,
+				B74F711D2A5F194000E88CDF /* clubsten.png */,
+				B74F71032A5F194000E88CDF /* clubsthree.png */,
+				B74F711C2A5F194000E88CDF /* clubstwo.png */,
+				B74F70FA2A5F194000E88CDF /* diamondsace.png */,
+				B74F71122A5F194000E88CDF /* diamondseight.png */,
+				B74F70F42A5F194000E88CDF /* diamondsfive.png */,
+				B74F71132A5F194000E88CDF /* diamondsfour.png */,
+				B74F70FE2A5F194000E88CDF /* diamondsjack.png */,
+				B74F70F32A5F194000E88CDF /* diamondsking.png */,
+				B74F71072A5F194000E88CDF /* diamondsnine.png */,
+				B74F71042A5F194000E88CDF /* diamondsqueen.png */,
+				B74F710B2A5F194000E88CDF /* diamondsseven.png */,
+				B74F71212A5F194000E88CDF /* diamondssix.png */,
+				B74F711F2A5F194000E88CDF /* diamondsten.png */,
+				B74F711B2A5F194000E88CDF /* diamondsthree.png */,
+				B74F70EE2A5F194000E88CDF /* diamondstwo.png */,
+				B74F710E2A5F194000E88CDF /* heartsace.png */,
+				B74F71152A5F194000E88CDF /* heartseight.png */,
+				B74F71112A5F194000E88CDF /* heartsfive.png */,
+				B74F70FC2A5F194000E88CDF /* heartsfour.png */,
+				B74F71182A5F194000E88CDF /* heartsjack.png */,
+				B74F71172A5F194000E88CDF /* heartsking.png */,
+				B74F71052A5F194000E88CDF /* heartsnine.png */,
+				B74F710C2A5F194000E88CDF /* heartsqueen.png */,
+				B74F71062A5F194000E88CDF /* heartsseven.png */,
+				B74F710D2A5F194000E88CDF /* heartssix.png */,
+				B74F70F22A5F194000E88CDF /* heartsten.png */,
+				B74F70EF2A5F194000E88CDF /* heartsthree.png */,
+				B74F70F52A5F194000E88CDF /* heartstwo.png */,
+				B74F71142A5F194000E88CDF /* spadesace.png */,
+				B74F70F92A5F194000E88CDF /* spadeseight.png */,
+				B74F711E2A5F194000E88CDF /* spadesfive.png */,
+				B74F70F12A5F194000E88CDF /* spadesfour.png */,
+				B74F71012A5F194000E88CDF /* spadesjack.png */,
+				B74F711A2A5F194000E88CDF /* spadesking.png */,
+				B74F71002A5F194000E88CDF /* spadesnine.png */,
+				B74F70FB2A5F194000E88CDF /* spadesqueen.png */,
+				B74F70FF2A5F194000E88CDF /* spadesseven.png */,
+				B74F710F2A5F194000E88CDF /* spadessix.png */,
+				B74F71102A5F194000E88CDF /* spadesten.png */,
+				B74F71022A5F194000E88CDF /* spadesthree.png */,
+				B74F70F72A5F194000E88CDF /* spadestwo.png */,
+			);
+			path = Cards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B74F70D52A5F190200E88CDF /* WarCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B74F70EA2A5F190200E88CDF /* Build configuration list for PBXNativeTarget "WarCardGame" */;
+			buildPhases = (
+				B74F70D22A5F190200E88CDF /* Sources */,
+				B74F70D32A5F190200E88CDF /* Frameworks */,
+				B74F70D42A5F190200E88CDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarCardGame;
+			productName = WarCardGame;
+			productReference = B74F70D62A5F190200E88CDF /* WarCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B74F70CE2A5F190200E88CDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B74F70D52A5F190200E88CDF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B74F70D12A5F190200E88CDF /* Build configuration list for PBXProject "WarCardGame" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B74F70CD2A5F190200E88CDF;
+			productRefGroup = B74F70D72A5F190200E88CDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B74F70D52A5F190200E88CDF /* WarCardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B74F70D42A5F190200E88CDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74F71392A5F194000E88CDF /* heartsnine.png in Resources */,
+				B74F71482A5F194000E88CDF /* spadesace.png in Resources */,
+				B74F71442A5F194000E88CDF /* spadesten.png in Resources */,
+				B74F71242A5F194000E88CDF /* clubsking.png in Resources */,
+				B74F71592A5F198400E88CDF /* ic_empty.png in Resources */,
+				B74F71372A5F194000E88CDF /* clubsthree.png in Resources */,
+				B74F71462A5F194000E88CDF /* diamondseight.png in Resources */,
+				B74F71272A5F194000E88CDF /* diamondsking.png in Resources */,
+				B74F71522A5F194000E88CDF /* spadesfive.png in Resources */,
+				B74F71282A5F194000E88CDF /* diamondsfive.png in Resources */,
+				B74F712B2A5F194000E88CDF /* spadestwo.png in Resources */,
+				B74F71292A5F194000E88CDF /* heartstwo.png in Resources */,
+				B74F71472A5F194000E88CDF /* diamondsfour.png in Resources */,
+				B74F71332A5F194000E88CDF /* spadesseven.png in Resources */,
+				B74F71422A5F194000E88CDF /* heartsace.png in Resources */,
+				B74F714F2A5F194000E88CDF /* diamondsthree.png in Resources */,
+				B74F714A2A5F194000E88CDF /* clubsace.png in Resources */,
+				B74F713D2A5F194000E88CDF /* clubsfive.png in Resources */,
+				B74F712A2A5F194000E88CDF /* clubsqueen.png in Resources */,
+				B74F71312A5F194000E88CDF /* clubssix.png in Resources */,
+				B74F713F2A5F194000E88CDF /* diamondsseven.png in Resources */,
+				B74F712F2A5F194000E88CDF /* spadesqueen.png in Resources */,
+				B74F714C2A5F194000E88CDF /* heartsjack.png in Resources */,
+				B74F70E62A5F190200E88CDF /* LaunchScreen.storyboard in Resources */,
+				B74F713B2A5F194000E88CDF /* diamondsnine.png in Resources */,
+				B74F71302A5F194000E88CDF /* heartsfour.png in Resources */,
+				B74F71532A5F194000E88CDF /* diamondsten.png in Resources */,
+				B74F71432A5F194000E88CDF /* spadessix.png in Resources */,
+				B74F712C2A5F194000E88CDF /* clubsfour.png in Resources */,
+				B74F71322A5F194000E88CDF /* diamondsjack.png in Resources */,
+				B74F71552A5F194000E88CDF /* diamondssix.png in Resources */,
+				B74F71342A5F194000E88CDF /* spadesnine.png in Resources */,
+				B74F712D2A5F194000E88CDF /* spadeseight.png in Resources */,
+				B74F70E32A5F190200E88CDF /* Assets.xcassets in Resources */,
+				B74F712E2A5F194000E88CDF /* diamondsace.png in Resources */,
+				B74F71232A5F194000E88CDF /* heartsthree.png in Resources */,
+				B74F71382A5F194000E88CDF /* diamondsqueen.png in Resources */,
+				B74F71362A5F194000E88CDF /* spadesthree.png in Resources */,
+				B74F71512A5F194000E88CDF /* clubsten.png in Resources */,
+				B74F70E12A5F190200E88CDF /* Main.storyboard in Resources */,
+				B74F71222A5F194000E88CDF /* diamondstwo.png in Resources */,
+				B74F714B2A5F194000E88CDF /* heartsking.png in Resources */,
+				B74F71262A5F194000E88CDF /* heartsten.png in Resources */,
+				B74F71502A5F194000E88CDF /* clubstwo.png in Resources */,
+				B74F71412A5F194000E88CDF /* heartssix.png in Resources */,
+				B74F713E2A5F194000E88CDF /* clubsseven.png in Resources */,
+				B74F71572A5F197E00E88CDF /* ic_deckback.png in Resources */,
+				B74F71252A5F194000E88CDF /* spadesfour.png in Resources */,
+				B74F71452A5F194000E88CDF /* heartsfive.png in Resources */,
+				B74F714D2A5F194000E88CDF /* clubsjack.png in Resources */,
+				B74F714E2A5F194000E88CDF /* spadesking.png in Resources */,
+				B74F713A2A5F194000E88CDF /* heartsseven.png in Resources */,
+				B74F71542A5F194000E88CDF /* clubsnine.png in Resources */,
+				B74F71352A5F194000E88CDF /* spadesjack.png in Resources */,
+				B74F713C2A5F194000E88CDF /* clubseight.png in Resources */,
+				B74F71402A5F194000E88CDF /* heartsqueen.png in Resources */,
+				B74F71492A5F194000E88CDF /* heartseight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B74F70D22A5F190200E88CDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B74F70DE2A5F190200E88CDF /* ViewController.swift in Sources */,
+				B74F70DA2A5F190200E88CDF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B74F70DF2A5F190200E88CDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74F70E02A5F190200E88CDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B74F70E42A5F190200E88CDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B74F70E52A5F190200E88CDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B74F70E82A5F190200E88CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B74F70E92A5F190200E88CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B74F70EB2A5F190200E88CDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WarCardGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = War;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radefffactory.WarCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B74F70EC2A5F190200E88CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WarCardGame/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = War;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.radefffactory.WarCardGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B74F70D12A5F190200E88CDF /* Build configuration list for PBXProject "WarCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74F70E82A5F190200E88CDF /* Debug */,
+				B74F70E92A5F190200E88CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B74F70EA2A5F190200E88CDF /* Build configuration list for PBXNativeTarget "WarCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B74F70EB2A5F190200E88CDF /* Debug */,
+				B74F70EC2A5F190200E88CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B74F70CE2A5F190200E88CDF /* Project object */;
+}
